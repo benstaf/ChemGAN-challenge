@@ -10,6 +10,6 @@
 
 * The code has not been cleaned, don't hesitate to post an issue if you don't find what you are looking for.
 
-* To make the DRD2 case work, take clf.pkl - The SVM activity model of DRD2 by Marcus Olivecrona [here](  https://github.com/MarcusOlivecrona/REINVENT/releases), rename it clf_drd2.pkl, and put it in the appropriate folder.
+* To make the DRD2 case work, take clf.pkl [here](  https://github.com/MarcusOlivecrona/REINVENT/releases), rename it clf_drd2.pkl, and put it in the appropriate folder. It's the SVM activity model of DRD2 by Marcus Olivecrona.
 
 * The code is mostly based on [ORGAN](https://github.com/gablg1/ORGAN). Many thanks to the ORGAN team.
