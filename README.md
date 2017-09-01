@@ -14,4 +14,10 @@
 
 * To make the QED case work, you need [Silicos-it](http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/biscu-it/qed/1.0.1/qed.html).
 
+* In order to train the model, cd into model and run
+
+python train_ogan.py exp.json
+
+where exp.json is a experiment configuration file.
+
 * This code is otherwise based on [ORGAN](https://github.com/gablg1/ORGAN). Many thanks to the ORGAN team.
