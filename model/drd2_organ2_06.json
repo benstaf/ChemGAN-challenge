@@ -1,0 +1,18 @@
+{
+    "EXP_NAME":"drd2_organ2_06",
+    "TRAIN_FILE":"../data/drugs_train_new.smi",
+    "METRICS_FILE":"mol_metrics_new2",
+    "OBJECTIVE":"DRD2",
+    "D_WEIGHT" : 0.06,
+    "CHK_PATH" : "checkpoints",
+    "G_STEPS" : 1,
+    "SEED":88,
+    "G_PRETRAIN_STEPS":240,
+    "D_PRETRAIN_STEPS":3,
+    "TOTAL_BATCH":11,
+    "MAX_LENGTH":40,
+    "BATCH_SIZE":64,
+    "LOAD_PRETRAIN":true,
+    "LOAD_PREV_SESS":false,
+    "EPOCH_SAVES":10
+}

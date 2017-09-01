@@ -1,0 +1,2 @@
+exp_name,Batch,test_loss,mean_length,n_samples,uniq_samples,good_samples,bad_samples,novelty,hard_novelty,soft_novelty,diversity,conciseness,solubility,naturalness,synthesizability,model_samples,neg-loglike,D_loss_0,Accuracy_0
+nodropout2CNN,0,6.29621696472,32.2949375,32000,31967,2838,29162,1.0,1.0,1.0,0.531531384571,0.9044397463,0.496784070893,0.607549185499,0.45269218341,nodropout2CNN_0,545.416381836,2.01006007195,0.875

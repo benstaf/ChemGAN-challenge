@@ -1,0 +1,2 @@
+exp_name,Batch,test_loss,mean_length,n_samples,uniq_samples,good_samples,bad_samples,novelty,hard_novelty,soft_novelty,diversity,conciseness,solubility,naturalness,synthesizability,model_samples,neg-loglike,D_loss_0,Accuracy_0
+test8CNN,0,6.2533788681,30.83471875,32000,31633,1959,30041,1.0,1.0,1.0,0.62253161286,0.924272588055,0.443250830621,0.6498947038,0.456990783863,test8CNN_0,140.980712891,2.43481063843,0.8125

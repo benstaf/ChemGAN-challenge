@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: qed
+Version: 1.0.1
+Summary: Quantitative Estimation of Drug-likeness descriptor
+Home-page: http://www.silicos-it.com
+Author: Hans De Winter
+Author-email: hans@silicos-it.com
+License: LGPL v3
+Description: Qed: Bickerton et al. (2012) Nature Chemistry 4, 90-98
+Platform: OS X 10.7
