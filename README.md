@@ -18,6 +18,6 @@
 
 ```python train_ogan.py exp.json```
 
-where exp.json is a experiment configuration file.
+where `exp.json` is a experiment configuration file.
 
 * This code is otherwise based on [ORGAN](https://github.com/gablg1/ORGAN). Many thanks to the ORGAN team.
