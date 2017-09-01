@@ -12,6 +12,6 @@
 
 * To make the DRD2 case work, take clf.pkl [here](  https://github.com/MarcusOlivecrona/REINVENT/releases), rename it clf_drd2.pkl, and put it in the appropriate folder. It's the SVM activity model of DRD2 by Marcus Olivecrona.
 
-* To make the QED case work, you need [Silicos-it](http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/biscu-it/qed/1.0.1/qed.html)
+* To make the QED case work, you need [Silicos-it](http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/biscu-it/qed/1.0.1/qed.html).
 
-* This code is mostly based on [ORGAN](https://github.com/gablg1/ORGAN). Many thanks to the ORGAN team.
+* This code is otherwise based on [ORGAN](https://github.com/gablg1/ORGAN). Many thanks to the ORGAN team.
