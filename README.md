@@ -14,9 +14,9 @@
 
 * To make the QED case work, you need [Silicos-it](http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/biscu-it/qed/1.0.1/qed.html).
 
-* In order to train the model, cd into model and run
+* In order to train the model, cd into `model` and run
 
-python train_ogan.py exp.json
+```python train_ogan.py exp.json```
 
 where exp.json is a experiment configuration file.
 
