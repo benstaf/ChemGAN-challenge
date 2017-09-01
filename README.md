@@ -1,41 +1,17 @@
-# Objective-Reinforced GANs (ORGAN)
+# ChemGAN challenge
 
-* Want the diversity and interestingness that you get with samples from an adversarial process (GAN)?
+* Code for the paper: 
 
-* Want the directed focus you can give algorithms with Reinforcement Learning? (RL)
+Benhenda, M. 2017. [ChemGAN challenge for drug discovery: can AI reproduce natural chemical diversity? arXiv preprint arXiv:1708.08227.](https://arxiv.org/abs/1708.08227)
 
-* Working with discrete sequence data (text, molecular SMILES, abc musical notation ,etc.)?
+* Related blog post: [https://medium.com/the-ai-lab/chemgan-challenge-for-drug-discovery-can-ai-reproduce-natural-chemical-diversity-8f1f2528ee22](https://medium.com/the-ai-lab/chemgan-challenge-for-drug-discovery-can-ai-reproduce-natural-chemical-diversity-8f1f2528ee22)
 
-Then **ORGAN** is for you, define simple objective functions to bias the model and generate sequences in an adversarial fashion. ORGAN improves on the given objective without losing interestingness in the generated data.
+* Chat room: [https://gitter.im/Startcrowd/drugdiscovery](https://gitter.im/Startcrowd/drugdiscovery) 
 
-Based on work from [https://arxiv.org/abs/1705.10843](https://arxiv.org/abs/1705.10843)
+* Requirements: Anaconda, Rdkit version 2017.03.3 from Anaconda, Tensorflow 1.0.1
 
-## How to train
+* The code has not been cleaned, don't hesitate to post an issue if you don't find what you are looking for.
 
-In order to train the model, cd into `model` and run
+* To make the DRD2 case work, take clf.pkl - The SVM activity model of DRD2 by Marcus Olivecrona [here](  https://github.com/MarcusOlivecrona/REINVENT/releases), rename it clf_drd2.pkl, and put it in the appropriate folder.
 
-```python train_ogan.py exp.json```
-
-where **exp.json** is a experiment configuration file.
-
-A GPU is recommended since it can take several days to run, depending on dataset and sequence extension, algorithm is not parallelized for multiple GPUs.
-
-## How to sample
-
-
-## Requirements to run
-
-* Tensorflow 1.0
-* Python 2 or 3
-* rdkit for molecular purposes
-* More in requirements.txt (install with `pip install -r requirements.txt`)
-
-## Make your own experiment
-
-Coming soon
-
-## Dockerfile
-
-Coming soon
-
-Note: We thank the [previous work by the SeqGAN team](https://github.com/LantaoYu/SeqGAN). This code is based on SeqGAN.
+* The code is mostly based on [ORGAN](https://github.com/gablg1/ORGAN). Many thanks to the ORGAN team.
