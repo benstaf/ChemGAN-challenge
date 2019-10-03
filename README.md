@@ -6,6 +6,8 @@
 
 * Chat room: [https://gitter.im/Startcrowd/drugdiscovery](https://gitter.im/Startcrowd/drugdiscovery) 
 
+* Video by Siraj Raval: [https://youtu.be/hY9Bc3mtphs](https://youtu.be/hY9Bc3mtphs)
+
 * Requirements: Rdkit version 2017.03.3 from Anaconda, Tensorflow 1.0.1
 
 * The code has not been cleaned, don't hesitate to post an issue if you don't find what you are looking for.
